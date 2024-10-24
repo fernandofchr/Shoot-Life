@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> upstream/main
 public class PacoMovement : MonoBehaviour
 {
     public GameObject BulletPrefab;

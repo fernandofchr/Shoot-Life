@@ -4,7 +4,11 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
+<<<<<<< HEAD
+  productGUID: de3da2174066a00478c0c2319a4129de
+=======
   productGUID: 8d99072ec662f004093807839eea1953
+>>>>>>> upstream/main
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +17,11 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
+<<<<<<< HEAD
+  productName: 2DVideoGame
+=======
   productName: ShootLife
+>>>>>>> upstream/main
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -630,14 +638,22 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
+<<<<<<< HEAD
+  metroPackageName: 2DVideoGame
+=======
   metroPackageName: ShootLife
+>>>>>>> upstream/main
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
+<<<<<<< HEAD
+  metroApplicationDescription: 2DVideoGame
+=======
   metroApplicationDescription: ShootLife
+>>>>>>> upstream/main
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -706,11 +722,19 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
+<<<<<<< HEAD
+  cloudProjectId: 41573794-ca62-4313-86d9-89c3ed15673e
+  framebufferDepthMemorylessMode: 0
+  qualitySettingsNames: []
+  projectName: 2DVideoGame
+  organizationId: am4063228
+=======
   cloudProjectId: 
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
   projectName: 
   organizationId: 
+>>>>>>> upstream/main
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}
