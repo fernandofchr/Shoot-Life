@@ -290,7 +290,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: Run_bot_Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -299,7 +299,7 @@ ScriptedImporter:
         width: 39
         height: 42
       spriteId: 89158f5df4c051041bc3ca0cda3142f7
-    - name: Frame_1
+    - name: Run_bot_Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -308,7 +308,7 @@ ScriptedImporter:
         width: 35
         height: 42
       spriteId: 60c74e819c5ac5a47bfa8c7785986c9d
-    - name: Frame_2
+    - name: Run_bot_Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -317,7 +317,7 @@ ScriptedImporter:
         width: 29
         height: 42
       spriteId: cb31fe363b2d7d7438124b3ec544c4d9
-    - name: Frame_3
+    - name: Run_bot_Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -326,7 +326,7 @@ ScriptedImporter:
         width: 32
         height: 42
       spriteId: 073f940c6bbd58c43bff7e41ffba9640
-    - name: Frame_4
+    - name: Run_bot_Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -335,7 +335,7 @@ ScriptedImporter:
         width: 38
         height: 40
       spriteId: 4872f48407c1582438cfa837f23baec6
-    - name: Frame_5
+    - name: Run_bot_Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -344,7 +344,7 @@ ScriptedImporter:
         width: 37
         height: 42
       spriteId: 7e97bebdc1c02c649943594979f603f4
-    - name: Frame_6
+    - name: Run_bot_Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -353,7 +353,7 @@ ScriptedImporter:
         width: 29
         height: 42
       spriteId: 0d04eb0ef9e563b438d5e9f0267f5d2d
-    - name: Frame_7
+    - name: Run_bot_Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:

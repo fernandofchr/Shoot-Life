@@ -370,7 +370,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: breakable platform_Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -379,7 +379,7 @@ ScriptedImporter:
         width: 84
         height: 52
       spriteId: 099662c049b47c545860f60dcd0c4124
-    - name: Frame_1
+    - name: breakable platform_Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -388,7 +388,7 @@ ScriptedImporter:
         width: 88
         height: 52
       spriteId: 993b30c3342842b43897388d571adac0
-    - name: Frame_2
+    - name: breakable platform_Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -397,7 +397,7 @@ ScriptedImporter:
         width: 90
         height: 52
       spriteId: 3b7d4f2a6f41c4545a0e24e7de70e2b4
-    - name: Frame_3
+    - name: breakable platform_Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -406,7 +406,7 @@ ScriptedImporter:
         width: 94
         height: 52
       spriteId: 89752a4e2f40d2a49b6df672a05225c1
-    - name: Frame_4
+    - name: breakable platform_Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -415,7 +415,7 @@ ScriptedImporter:
         width: 98
         height: 52
       spriteId: 32d638f836d1c55429e755f9c85acf35
-    - name: Frame_5
+    - name: breakable platform_Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -424,7 +424,7 @@ ScriptedImporter:
         width: 101
         height: 52
       spriteId: 5dfcec25032d05b47baafb44c85fddc6
-    - name: Frame_6
+    - name: breakable platform_Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -433,7 +433,7 @@ ScriptedImporter:
         width: 99
         height: 52
       spriteId: 3df13e1731e58854caa00bc15332a475
-    - name: Frame_7
+    - name: breakable platform_Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -442,7 +442,7 @@ ScriptedImporter:
         width: 99
         height: 52
       spriteId: 981725258c024dc4c95bde9f217cae05
-    - name: Frame_8
+    - name: breakable platform_Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -451,7 +451,7 @@ ScriptedImporter:
         width: 99
         height: 52
       spriteId: 2a3871e5bf4ab3443bd39abcc68734ae
-    - name: Frame_9
+    - name: breakable platform_Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:
@@ -460,7 +460,7 @@ ScriptedImporter:
         width: 99
         height: 52
       spriteId: d08104f40671c064f854e2ba724a8a6a
-    - name: Frame_10
+    - name: breakable platform_Frame_10
       frameIndex: 10
       additiveSortOrder: 0
       cellRect:
@@ -469,7 +469,7 @@ ScriptedImporter:
         width: 99
         height: 52
       spriteId: 6ca8cf7f9ad2e2f459280a28a063f531
-    - name: Frame_11
+    - name: breakable platform_Frame_11
       frameIndex: 11
       additiveSortOrder: 0
       cellRect:

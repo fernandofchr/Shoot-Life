@@ -56,9 +56,6 @@
         "temp/": true,
         "Temp/": true
     },
-<<<<<<< HEAD
-    "dotnet.defaultSolution": "2DVideoGame.sln"
-=======
+    "2DVideoGame.sln=======dotnet.defaultSolution": "ShootLife.sln>>>>>>>upstream/main",
     "dotnet.defaultSolution": "ShootLife.sln"
->>>>>>> upstream/main
 }
