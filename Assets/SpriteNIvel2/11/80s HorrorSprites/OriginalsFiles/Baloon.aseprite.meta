@@ -1,0 +1,980 @@
+fileFormatVersion: 2
+guid: ba8f7a9009e193141a1e70060060a3c7
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Baloon_Frame_0
+    originalName: 
+    pivot: {x: 0.5, y: -0.03773585}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 28
+      y: 199
+      width: 16
+      height: 53
+    spriteID: d12b3c6593e9ffd4bbd156bfc67d45e8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 28, y: 199}
+  - name: Baloon_Frame_1
+    originalName: 
+    pivot: {x: 0.625, y: -0.0754717}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 124
+      y: 190
+      width: 16
+      height: 53
+    spriteID: 8ba1bc631a930fe468386e25d27e1e9e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 124, y: 190}
+  - name: Baloon_Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: -0.051724136}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 140
+      width: 16
+      height: 58
+    spriteID: f5a5f279a6d4ed746b009d6e4e8d3949
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 140}
+  - name: Baloon_Frame_3
+    originalName: 
+    pivot: {x: 0.5625, y: -0.18867925}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 148
+      y: 4
+      width: 16
+      height: 53
+    spriteID: de2cf924fdd34f244b573bd9af59f892
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 148, y: 4}
+  - name: Baloon_Frame_4
+    originalName: 
+    pivot: {x: 0.4375, y: -0.17857143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 52
+      y: 69
+      width: 16
+      height: 56
+    spriteID: d4306bbf30f0f9442b68e346157ea874
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 52, y: 69}
+  - name: Baloon_Frame_5
+    originalName: 
+    pivot: {x: 0.5625, y: -0.3018868}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 148
+      y: 65
+      width: 16
+      height: 53
+    spriteID: 3be64f56451f06b48b73920fe4667c3b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 148, y: 65}
+  - name: Baloon_Frame_6
+    originalName: 
+    pivot: {x: 0.375, y: -0.21311474}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 16
+      height: 61
+    spriteID: 50ec926e0a9a5fc46a56b9e7956abfa7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Baloon_Frame_7
+    originalName: 
+    pivot: {x: 0.375, y: -0.3962264}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 148
+      y: 126
+      width: 16
+      height: 53
+    spriteID: 1187d2e4c1cca3342967617bb4e40e32
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 148, y: 126}
+  - name: Baloon_Frame_8
+    originalName: 
+    pivot: {x: 0.375, y: -0.34545454}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 52
+      y: 197
+      width: 16
+      height: 55
+    spriteID: 8342456aa13c97c48a8a87a46a635876
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 52, y: 197}
+  - name: Baloon_Frame_9
+    originalName: 
+    pivot: {x: 0.4375, y: -0.3214286}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 52
+      y: 133
+      width: 16
+      height: 56
+    spriteID: ab716e0c2406e2648af55d3dcfb2c190
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 52, y: 133}
+  - name: Baloon_Frame_10
+    originalName: 
+    pivot: {x: 0.5, y: -0.3962264}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 148
+      y: 187
+      width: 16
+      height: 53
+    spriteID: c8582d183cdf30d478da2cf8790df093
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 148, y: 187}
+  - name: Baloon_Frame_11
+    originalName: 
+    pivot: {x: 0.5625, y: -0.2982456}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 28
+      y: 4
+      width: 16
+      height: 57
+    spriteID: 8272274b3e659c0488af4be05aa067ce
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 28, y: 4}
+  - name: Baloon_Frame_12
+    originalName: 
+    pivot: {x: 0.5625, y: -0.34545454}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 196
+      width: 16
+      height: 55
+    spriteID: 5846a4bcbfa746241be49747dd6842c8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 196}
+  - name: Baloon_Frame_13
+    originalName: 
+    pivot: {x: 0.625, y: -0.34545454}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 100
+      y: 4
+      width: 16
+      height: 55
+    spriteID: 8e765881a6ccece4ea3f2f02b2fb531b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 100, y: 4}
+  - name: Baloon_Frame_14
+    originalName: 
+    pivot: {x: 0.5, y: -0.3703704}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 124
+      y: 4
+      width: 16
+      height: 54
+    spriteID: 97bfacaac23590f4bbdc0a6ffe153785
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 124, y: 4}
+  - name: Baloon_Frame_15
+    originalName: 
+    pivot: {x: 0.4375, y: -0.35714287}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 4
+      width: 16
+      height: 56
+    spriteID: 3f26ce49b3612174ab64e3d2b5c6d718
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 4}
+  - name: Baloon_Frame_16
+    originalName: 
+    pivot: {x: 0.5, y: -0.43636364}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 100
+      y: 67
+      width: 16
+      height: 55
+    spriteID: 5d166f459cedc844d87583f9baaea54f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 100, y: 67}
+  - name: Baloon_Frame_17
+    originalName: 
+    pivot: {x: 0.4375, y: -0.5660378}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 172
+      y: 4
+      width: 16
+      height: 53
+    spriteID: e3f0b9fdf7befc2429bb867e2d67a861
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 172, y: 4}
+  - name: Baloon_Frame_18
+    originalName: 
+    pivot: {x: 0.4375, y: -0.50877196}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 28
+      y: 69
+      width: 16
+      height: 57
+    spriteID: d9f9df8728f000d458f3ba7736283d6c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 28, y: 69}
+  - name: Baloon_Frame_19
+    originalName: 
+    pivot: {x: 0.4375, y: -0.6226415}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 172
+      y: 65
+      width: 16
+      height: 53
+    spriteID: e5c081c9833ae6f41a3eee2fbed079f5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 172, y: 65}
+  - name: Baloon_Frame_20
+    originalName: 
+    pivot: {x: 0.4375, y: -0.5925926}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 124
+      y: 66
+      width: 16
+      height: 54
+    spriteID: 3e795088bc64c754e891b812b0c38d1e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 124, y: 66}
+  - name: Baloon_Frame_21
+    originalName: 
+    pivot: {x: 0.4375, y: -0.56363636}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 100
+      y: 130
+      width: 16
+      height: 55
+    spriteID: 1d99872fedb799f4cb23386432f9070c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 100, y: 130}
+  - name: Baloon_Frame_22
+    originalName: 
+    pivot: {x: 0.4375, y: -0.5925926}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 124
+      y: 128
+      width: 16
+      height: 54
+    spriteID: 39f215bca0097504189d516cb174629d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 124, y: 128}
+  - name: Baloon_Frame_23
+    originalName: 
+    pivot: {x: 0.4375, y: -0.56363636}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 100
+      y: 193
+      width: 16
+      height: 55
+    spriteID: 605cb5104d5449a49b2fea7a093bc946
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 100, y: 193}
+  - name: Baloon_Frame_24
+    originalName: 
+    pivot: {x: 0.4375, y: -0.50877196}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 28
+      y: 134
+      width: 16
+      height: 57
+    spriteID: 4d2113d521eece34798da4efd5e48429
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 28, y: 134}
+  - name: Baloon_Frame_25
+    originalName: 
+    pivot: {x: 0.4375, y: -0.50877196}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 52
+      y: 4
+      width: 16
+      height: 57
+    spriteID: bc2815d324cea7f428eb082ed5fb6086
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 52, y: 4}
+  - name: Baloon_Frame_26
+    originalName: 
+    pivot: {x: 0.4375, y: -0.5357143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 68
+      width: 16
+      height: 56
+    spriteID: 13316bb6ae84aec4c8700e5997941ff7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 68}
+  - name: Baloon_Frame_27
+    originalName: 
+    pivot: {x: 0.4375, y: -0.45762712}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 73
+      width: 16
+      height: 59
+    spriteID: 49fc4b3cd6984ad41ad78b642bc932ae
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 73}
+  - name: Baloon_Frame_28
+    originalName: 
+    pivot: {x: 0.4375, y: -0.5357143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 132
+      width: 16
+      height: 56
+    spriteID: a35a42609c8ad39428a22db069669f1b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 132}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1730093799
+    name: Baloon
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Baloon_Frame_0
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 24
+        y: 2
+        width: 16
+        height: 53
+      spriteId: d12b3c6593e9ffd4bbd156bfc67d45e8
+    - name: Baloon_Frame_1
+      frameIndex: 1
+      additiveSortOrder: 0
+      cellRect:
+        x: 22
+        y: 4
+        width: 16
+        height: 53
+      spriteId: 8ba1bc631a930fe468386e25d27e1e9e
+    - name: Baloon_Frame_2
+      frameIndex: 2
+      additiveSortOrder: 0
+      cellRect:
+        x: 24
+        y: 3
+        width: 16
+        height: 58
+      spriteId: f5a5f279a6d4ed746b009d6e4e8d3949
+    - name: Baloon_Frame_3
+      frameIndex: 3
+      additiveSortOrder: 0
+      cellRect:
+        x: 23
+        y: 10
+        width: 16
+        height: 53
+      spriteId: de2cf924fdd34f244b573bd9af59f892
+    - name: Baloon_Frame_4
+      frameIndex: 4
+      additiveSortOrder: 0
+      cellRect:
+        x: 25
+        y: 10
+        width: 16
+        height: 56
+      spriteId: d4306bbf30f0f9442b68e346157ea874
+    - name: Baloon_Frame_5
+      frameIndex: 5
+      additiveSortOrder: 0
+      cellRect:
+        x: 23
+        y: 16
+        width: 16
+        height: 53
+      spriteId: 3be64f56451f06b48b73920fe4667c3b
+    - name: Baloon_Frame_6
+      frameIndex: 6
+      additiveSortOrder: 0
+      cellRect:
+        x: 26
+        y: 13
+        width: 16
+        height: 61
+      spriteId: 50ec926e0a9a5fc46a56b9e7956abfa7
+    - name: Baloon_Frame_7
+      frameIndex: 7
+      additiveSortOrder: 0
+      cellRect:
+        x: 26
+        y: 21
+        width: 16
+        height: 53
+      spriteId: 1187d2e4c1cca3342967617bb4e40e32
+    - name: Baloon_Frame_8
+      frameIndex: 8
+      additiveSortOrder: 0
+      cellRect:
+        x: 26
+        y: 19
+        width: 16
+        height: 55
+      spriteId: 8342456aa13c97c48a8a87a46a635876
+    - name: Baloon_Frame_9
+      frameIndex: 9
+      additiveSortOrder: 0
+      cellRect:
+        x: 25
+        y: 18
+        width: 16
+        height: 56
+      spriteId: ab716e0c2406e2648af55d3dcfb2c190
+    - name: Baloon_Frame_10
+      frameIndex: 10
+      additiveSortOrder: 0
+      cellRect:
+        x: 24
+        y: 21
+        width: 16
+        height: 53
+      spriteId: c8582d183cdf30d478da2cf8790df093
+    - name: Baloon_Frame_11
+      frameIndex: 11
+      additiveSortOrder: 0
+      cellRect:
+        x: 23
+        y: 17
+        width: 16
+        height: 57
+      spriteId: 8272274b3e659c0488af4be05aa067ce
+    - name: Baloon_Frame_12
+      frameIndex: 12
+      additiveSortOrder: 0
+      cellRect:
+        x: 23
+        y: 19
+        width: 16
+        height: 55
+      spriteId: 5846a4bcbfa746241be49747dd6842c8
+    - name: Baloon_Frame_13
+      frameIndex: 13
+      additiveSortOrder: 0
+      cellRect:
+        x: 22
+        y: 19
+        width: 16
+        height: 55
+      spriteId: 8e765881a6ccece4ea3f2f02b2fb531b
+    - name: Baloon_Frame_14
+      frameIndex: 14
+      additiveSortOrder: 0
+      cellRect:
+        x: 24
+        y: 20
+        width: 16
+        height: 54
+      spriteId: 97bfacaac23590f4bbdc0a6ffe153785
+    - name: Baloon_Frame_15
+      frameIndex: 15
+      additiveSortOrder: 0
+      cellRect:
+        x: 25
+        y: 20
+        width: 16
+        height: 56
+      spriteId: 3f26ce49b3612174ab64e3d2b5c6d718
+    - name: Baloon_Frame_16
+      frameIndex: 16
+      additiveSortOrder: 0
+      cellRect:
+        x: 24
+        y: 24
+        width: 16
+        height: 55
+      spriteId: 5d166f459cedc844d87583f9baaea54f
+    - name: Baloon_Frame_17
+      frameIndex: 17
+      additiveSortOrder: 0
+      cellRect:
+        x: 25
+        y: 30
+        width: 16
+        height: 53
+      spriteId: e3f0b9fdf7befc2429bb867e2d67a861
+    - name: Baloon_Frame_18
+      frameIndex: 18
+      additiveSortOrder: 0
+      cellRect:
+        x: 25
+        y: 29
+        width: 16
+        height: 57
+      spriteId: d9f9df8728f000d458f3ba7736283d6c
+    - name: Baloon_Frame_19
+      frameIndex: 19
+      additiveSortOrder: 0
+      cellRect:
+        x: 25
+        y: 33
+        width: 16
+        height: 53
+      spriteId: e5c081c9833ae6f41a3eee2fbed079f5
+    - name: Baloon_Frame_20
+      frameIndex: 20
+      additiveSortOrder: 0
+      cellRect:
+        x: 25
+        y: 32
+        width: 16
+        height: 54
+      spriteId: 3e795088bc64c754e891b812b0c38d1e
+    - name: Baloon_Frame_21
+      frameIndex: 21
+      additiveSortOrder: 0
+      cellRect:
+        x: 25
+        y: 31
+        width: 16
+        height: 55
+      spriteId: 1d99872fedb799f4cb23386432f9070c
+    - name: Baloon_Frame_22
+      frameIndex: 22
+      additiveSortOrder: 0
+      cellRect:
+        x: 25
+        y: 32
+        width: 16
+        height: 54
+      spriteId: 39f215bca0097504189d516cb174629d
+    - name: Baloon_Frame_23
+      frameIndex: 23
+      additiveSortOrder: 0
+      cellRect:
+        x: 25
+        y: 31
+        width: 16
+        height: 55
+      spriteId: 605cb5104d5449a49b2fea7a093bc946
+    - name: Baloon_Frame_24
+      frameIndex: 24
+      additiveSortOrder: 0
+      cellRect:
+        x: 25
+        y: 29
+        width: 16
+        height: 57
+      spriteId: 4d2113d521eece34798da4efd5e48429
+    - name: Baloon_Frame_25
+      frameIndex: 25
+      additiveSortOrder: 0
+      cellRect:
+        x: 25
+        y: 29
+        width: 16
+        height: 57
+      spriteId: bc2815d324cea7f428eb082ed5fb6086
+    - name: Baloon_Frame_26
+      frameIndex: 26
+      additiveSortOrder: 0
+      cellRect:
+        x: 25
+        y: 30
+        width: 16
+        height: 56
+      spriteId: 13316bb6ae84aec4c8700e5997941ff7
+    - name: Baloon_Frame_27
+      frameIndex: 27
+      additiveSortOrder: 0
+      cellRect:
+        x: 25
+        y: 27
+        width: 16
+        height: 59
+      spriteId: 49fc4b3cd6984ad41ad78b642bc932ae
+    - name: Baloon_Frame_28
+      frameIndex: 28
+      additiveSortOrder: 0
+      cellRect:
+        x: 25
+        y: 30
+        width: 16
+        height: 56
+      spriteId: a35a42609c8ad39428a22db069669f1b
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 64, y: 128}
