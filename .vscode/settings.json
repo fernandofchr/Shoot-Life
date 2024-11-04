@@ -56,6 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "2DVideoGame.sln=======dotnet.defaultSolution": "ShootLife.sln>>>>>>>upstream/main",
-    "dotnet.defaultSolution": "ShootLife.sln"
+    "dotnet.defaultSolution": "ShootLife2DV2.sln"
 }
