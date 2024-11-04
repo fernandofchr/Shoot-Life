@@ -9,11 +9,10 @@ public class GruntScript : MonoBehaviour
     private float LastShoot;
     public int Health = 3;
 
-    private PacoMovement pacoMovement; // Referencia al script de Paco
+    private PacoMovement pacoMovement;
 
     private void Start()
     {
-        // Buscamos el script de Paco al inicio del juego
         if (Paco != null)
         {
             pacoMovement = Paco.GetComponent<PacoMovement>();
@@ -60,9 +59,10 @@ public class GruntScript : MonoBehaviour
         {
             if (pacoMovement != null)
             {
+                pacoMovement.AddScore(100); // Aumentar 100 puntos al destruir el enemigo
                 pacoMovement.Heal(1); // Paco recupera 1 de salud cuando mata al enemigo
             }
-            Destroy(gameObject); // Destruir el enemigo
+            Destroy(gameObject);
         }
     }
 }

@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -21,6 +22,11 @@ public class PacoMovement : MonoBehaviour
     public Sprite fullHeart; // Sprite del corazón lleno
     public Sprite emptyHeart; // Sprite del corazón vacío
 
+    // Variables de puntuación
+    private int score = 0; // Puntuación inicial
+    public TextMeshProUGUI scoreText;
+ // Texto de UI para mostrar la puntuación
+
     void Start()
     {
         //Referencia al cuerpo de Paco
@@ -31,6 +37,7 @@ public class PacoMovement : MonoBehaviour
         // Inicializamos la salud actual con la salud máxima
         currentHealth = maxHealth;
         UpdateHearts(); // Actualizamos los corazones en la UI
+        UpdateScoreText(); // Actualizamos la puntuación en la UI
     }
 
     void Update()
@@ -104,6 +111,22 @@ public class PacoMovement : MonoBehaviour
         {
             Destroy(gameObject);
             Debug.Log("Paco ha muerto");
+        }
+    }
+
+    // Método para incrementar la puntuación
+    public void AddScore(int points)
+    {
+        score += points;
+        UpdateScoreText(); // Actualizar el texto de la puntuación en la UI
+    }
+
+    // Método para actualizar el texto de la puntuación
+    private void UpdateScoreText()
+    {
+        if (scoreText != null)
+        {
+            scoreText.text = "Score: " + score;
         }
     }
 
