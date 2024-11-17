@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,448 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: BGFC L2_0
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 834
+        width: 66
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1a642dcf473c144dbcc8c6b3d1b14de
+      internalID: -81189279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGFC L2_1
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 835
+        width: 107
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea48e49cc741504893913fac47ba8e8
+      internalID: -2059863312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGFC L2_2
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 835
+        width: 29
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22f3f171701606a45a0190b19450c5f1
+      internalID: -1941557307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGFC L2_3
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 835
+        width: 101
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c47e1685693878419935b1035baed53
+      internalID: 530145167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGFC L2_4
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 643
+        width: 179
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6340fac8029f09488474cd67588ca76
+      internalID: 39732672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGFC L2_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 643
+        width: 211
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bea0c20faa20fd245aef8ac7ce8ffb23
+      internalID: 553817656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGFC L2_6
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 419
+        width: 91
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2267f3e8b6ebcfe4da410f270bc5dd0f
+      internalID: 1950459968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGFC L2_7
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 419
+        width: 54
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bc3a6d4e877db4449fb224e860dede0
+      internalID: -742897208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGFC L2_8
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 419
+        width: 61
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 004155b61b0106847906360b96b396fe
+      internalID: 1682330507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGFC L2_9
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 419
+        width: 23
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26bcee561dd345748a2265085bf4e719
+      internalID: 283229806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGFC L2_10
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 419
+        width: 20
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11db3c3aea272bd47b8a09f65d511fcb
+      internalID: 539822133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGFC L2_11
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 419
+        width: 94
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c58bffd885b9e71469d44d11179ed272
+      internalID: -1351281605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGFC L2_12
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 419
+        width: 13
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fea7b2f159d4c74cad15d8a31c7752f
+      internalID: 2135164766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGFC L2_13
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 419
+        width: 28
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e581bfc91817247a67a157eb2928e4
+      internalID: -405105923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGFC L2_14
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 92
+        width: 101
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05bdcb2035374e44a836eb6bf911bc46
+      internalID: -1176038250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGFC L2_15
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 227
+        width: 125
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 805882adc0f33504585df028ec6023b1
+      internalID: -296167917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGFC L2_16
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 227
+        width: 314
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3804ab9e13fc3454f99c2eb20d8a6e67
+      internalID: 600257501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGFC L2_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 92
+        width: 32
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c6168bb0d42644693e8cc68b5efd23
+      internalID: -2023501719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGFC L2_18
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 92
+        width: 31
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97abae4ae9110214e946ca922ab951f4
+      internalID: 561748047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGFC L2_19
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 92
+        width: 66
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59cf726ac3778e541a4b4b5db529d2a6
+      internalID: 1818548243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BGFC L2_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 688
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fab9b29a0ca58254fbc79b72f1acc863
+      internalID: 5843975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +560,28 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BGFC L2_0: -81189279
+      BGFC L2_1: -2059863312
+      BGFC L2_10: 539822133
+      BGFC L2_11: -1351281605
+      BGFC L2_12: 2135164766
+      BGFC L2_13: -405105923
+      BGFC L2_14: -1176038250
+      BGFC L2_15: -296167917
+      BGFC L2_16: 600257501
+      BGFC L2_17: -2023501719
+      BGFC L2_18: 561748047
+      BGFC L2_19: 1818548243
+      BGFC L2_2: -1941557307
+      BGFC L2_20: 5843975
+      BGFC L2_3: 530145167
+      BGFC L2_4: 39732672
+      BGFC L2_5: 553817656
+      BGFC L2_6: 1950459968
+      BGFC L2_7: -742897208
+      BGFC L2_8: 1682330507
+      BGFC L2_9: 283229806
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
