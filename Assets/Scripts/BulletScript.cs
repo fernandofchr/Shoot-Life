@@ -11,7 +11,7 @@ public class BulletScript : MonoBehaviour
     private Rigidbody2D Rigidbody2D;
 
     private Vector2 Direction;
-    private bool isDead = false;
+    // private bool isDead = false;
     
     void Start()
     {
