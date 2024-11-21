@@ -77,6 +77,6 @@ public class MenuPausa : MonoBehaviour
     public void Cerrar()
     {
         Debug.Log("Salió...");
-        Application.Quit();
+        SceneManager.LoadScene(0);
     }
 }

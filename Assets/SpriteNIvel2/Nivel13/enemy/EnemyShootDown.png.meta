@@ -1,0 +1,303 @@
+fileFormatVersion: 2
+guid: 70f0e1d0938b47e41a2e554c7a31c2fe
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 337
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: frame_7_delay-0.1s-fotor-bg-remover-20241118171130-imageonline.co-merged_0
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 34
+        width: 363
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe14a8d3eb44f5947b4cfe50dc39dc53
+      internalID: 70961211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frame_7_delay-0.1s-fotor-bg-remover-20241118171130-imageonline.co-merged_1
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 34
+        width: 412
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cda982756ca28b46a8d4f9216a5986a
+      internalID: -1262066334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frame_7_delay-0.1s-fotor-bg-remover-20241118171130-imageonline.co-merged_2
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 34
+        width: 363
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa6017c9b5ca760408e5d38c7f62fe62
+      internalID: -1278617713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frame_7_delay-0.1s-fotor-bg-remover-20241118171130-imageonline.co-merged_3
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 34
+        width: 412
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f1c7f03bc029b74d986912d38ca4f74
+      internalID: -1189154971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frame_7_delay-0.1s-fotor-bg-remover-20241118171130-imageonline.co-merged_4
+      rect:
+        serializedVersion: 2
+        x: 2044
+        y: 34
+        width: 363
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 848fe0e852127324e834395c87e0bd1d
+      internalID: 42255619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frame_7_delay-0.1s-fotor-bg-remover-20241118171130-imageonline.co-merged_5
+      rect:
+        serializedVersion: 2
+        x: 2544
+        y: 34
+        width: 412
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6298044c1b1a0e45863d733202b3be1
+      internalID: 783418969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frame_7_delay-0.1s-fotor-bg-remover-20241118171130-imageonline.co-merged_6
+      rect:
+        serializedVersion: 2
+        x: 3044
+        y: 34
+        width: 363
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0798d66a4f71d3f4291ec4d2c031e67b
+      internalID: -1522585438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frame_7_delay-0.1s-fotor-bg-remover-20241118171130-imageonline.co-merged_7
+      rect:
+        serializedVersion: 2
+        x: 3544
+        y: 34
+        width: 412
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3af08f81cad8ca54ebf2cf16b557a3c4
+      internalID: 422086854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      frame_7_delay-0.1s-fotor-bg-remover-20241118171130-imageonline.co-merged_0: 70961211
+      frame_7_delay-0.1s-fotor-bg-remover-20241118171130-imageonline.co-merged_1: -1262066334
+      frame_7_delay-0.1s-fotor-bg-remover-20241118171130-imageonline.co-merged_2: -1278617713
+      frame_7_delay-0.1s-fotor-bg-remover-20241118171130-imageonline.co-merged_3: -1189154971
+      frame_7_delay-0.1s-fotor-bg-remover-20241118171130-imageonline.co-merged_4: 42255619
+      frame_7_delay-0.1s-fotor-bg-remover-20241118171130-imageonline.co-merged_5: 783418969
+      frame_7_delay-0.1s-fotor-bg-remover-20241118171130-imageonline.co-merged_6: -1522585438
+      frame_7_delay-0.1s-fotor-bg-remover-20241118171130-imageonline.co-merged_7: 422086854
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

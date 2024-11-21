@@ -11,7 +11,7 @@ public class BulletScript : MonoBehaviour
     private Rigidbody2D Rigidbody2D;
 
     private Vector2 Direction;
-    private bool isDead = false;
+    // private bool isDead = false;
     
     void Start()
     {
@@ -38,6 +38,7 @@ public class BulletScript : MonoBehaviour
         PacoMovement paco = collider.GetComponent<PacoMovement>();
         GruntScript grunt = collider.GetComponent<GruntScript>(); 
         BossScript boss = collider.GetComponent<BossScript>(); 
+        Boss3Script boss3 = collider.GetComponent<Boss3Script>();
 
         if (paco !=null)
         {
@@ -50,6 +51,10 @@ public class BulletScript : MonoBehaviour
         if (boss !=null)
         {
             boss.Hit();
+        }
+                if (boss3 !=null)
+        {
+            boss3.Hit();
         }
         DestroyBullet(); 
     }
