@@ -133,7 +133,6 @@ GameObject:
   - component: {fileID: 125904955}
   - component: {fileID: 125904957}
   - component: {fileID: 125904956}
-  - component: {fileID: 125904958}
   m_Layer: 5
   m_Name: MenuSeleccion
   m_TagString: Untagged
@@ -202,18 +201,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 125904954}
   m_CullTransparentMesh: 1
---- !u!114 &125904958
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 125904954}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1f8dee8e9a076346866576fe109c173, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &164276430
 GameObject:
   m_ObjectHideFlags: 0
@@ -226,6 +213,7 @@ GameObject:
   - component: {fileID: 164276433}
   - component: {fileID: 164276432}
   - component: {fileID: 164276431}
+  - component: {fileID: 164276435}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -316,6 +304,22 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &164276435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 164276430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 977c8856acdc5574a834a898b229e2a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  index: 0000000001000000
+  selectionBoxes:
+  - {fileID: 1202737103}
+  - {fileID: 754720426}
 --- !u!1 &202116975
 GameObject:
   m_ObjectHideFlags: 0
@@ -736,8 +740,9 @@ GameObject:
   m_Component:
   - component: {fileID: 965316161}
   - component: {fileID: 965316162}
+  - component: {fileID: 965316163}
   m_Layer: 5
-  m_Name: CharacterSelectionManager
+  m_Name: PlayerManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -774,7 +779,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b3a6298bdaeeb54ba14feafb4ff57c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SelectedCharacterName: 
+--- !u!114 &965316163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965316160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c47228018fa6ec344b94b2f0177282a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectedCharacterIndex: 0
 --- !u!1 &1074636828
 GameObject:
   m_ObjectHideFlags: 0
@@ -858,10 +875,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 125904958}
-        m_TargetAssemblyTypeName: CharacterSelector, Assembly-CSharp
-        m_MethodName: SelectCharacter
-        m_Mode: 5
+      - m_Target: {fileID: 164276435}
+        m_TargetAssemblyTypeName: CharacterSelection, Assembly-CSharp
+        m_MethodName: Select
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1363,7 +1380,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 125904958}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: CharacterSelector, Assembly-CSharp
         m_MethodName: StartGame
         m_Mode: 1
@@ -1496,10 +1513,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 125904958}
-        m_TargetAssemblyTypeName: CharacterSelector, Assembly-CSharp
-        m_MethodName: SelectCharacter
-        m_Mode: 5
+      - m_Target: {fileID: 164276435}
+        m_TargetAssemblyTypeName: CharacterSelection, Assembly-CSharp
+        m_MethodName: Select
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
