@@ -39,6 +39,7 @@ public class BulletScript : MonoBehaviour
         GruntScript grunt = collider.GetComponent<GruntScript>(); 
         BossScript boss = collider.GetComponent<BossScript>(); 
         Boss3Script boss3 = collider.GetComponent<Boss3Script>();
+        SoldierScript soldier = collider.GetComponent<SoldierScript>();
 
         if (paco !=null)
         {
@@ -55,6 +56,8 @@ public class BulletScript : MonoBehaviour
                 if (boss3 !=null)
         {
             boss3.Hit();
+        }if(soldier !=null){
+            soldier.Hit();
         }
         DestroyBullet(); 
     }
