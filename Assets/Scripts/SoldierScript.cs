@@ -61,18 +61,25 @@ private void Update()
     }
 }
 
-    private void Shoot()
+private void Shoot()
+{
+    Vector3 direction = transform.localScale.x == originalScale.x ? Vector2.right : Vector2.left;
+    Vector3 spawnPosition = transform.position + direction * 0.2f;
+
+    Debug.Log("Intentando disparar bala en la posición: " + spawnPosition);
+
+    GameObject bullet = Instantiate(BulletPrefab, spawnPosition, Quaternion.identity);
+
+    if (bullet.GetComponent<BulletScript>() != null)
     {
-        // Determina la dirección del disparo basado en la orientación del Boss
-        Vector3 direction = transform.localScale.x == originalScale.x ? Vector2.right : Vector2.left;
-
-        // Ajusta la posición de aparición de la bala para que esté justo en el borde del personaje
-        Vector3 spawnPosition = transform.position + direction * 0.2f;
-
-        // Crea y lanza la bala en la dirección correspondiente
-        GameObject bullet = Instantiate(BulletPrefab, spawnPosition, Quaternion.identity);
+        Debug.Log("BulletScript encontrado. Configurando dirección.");
         bullet.GetComponent<BulletScript>().SetDirection(direction);
     }
+    else
+    {
+        Debug.LogError("¡BulletScript no encontrado en el prefab de bala!");
+    }
+}
 
     public void Hit()
     {
