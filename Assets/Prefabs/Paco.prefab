@@ -204,6 +204,9 @@ MonoBehaviour:
   - {fileID: 0}
   fullHeart: {fileID: 21300000, guid: fed24bd82cefc0c4a8ef64dab6231b53, type: 3}
   emptyHeart: {fileID: 21300002, guid: fed24bd82cefc0c4a8ef64dab6231b53, type: 3}
+  animatorControllers:
+  - {fileID: 9100000, guid: 3a0d1c1ff9286d34cb8090e0a1683fc2, type: 2}
+  - {fileID: 9100000, guid: 72cf336e158747740a1bbe44b210175d, type: 2}
   scoreText: {fileID: 0}
 --- !u!114 &5725124941578325735
 MonoBehaviour:
