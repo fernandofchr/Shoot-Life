@@ -82,7 +82,8 @@ public class BossScript : MonoBehaviour
           
             if (pacoMovement != null)
             {
-                pacoMovement.Heal(1); // Paco recupera 1 de salud cuando mata al Boss
+                pacoMovement.Heal(1);
+                pacoMovement.AddScore(100); // Paco recupera 1 de salud cuando mata al Boss
             }
             Destroy(gameObject); // Destruye el Boss
         }

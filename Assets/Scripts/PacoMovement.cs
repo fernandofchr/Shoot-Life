@@ -21,6 +21,7 @@ public class PacoMovement : MonoBehaviour
     public Image[] hearts; // Arreglo de imágenes de corazones en el UI
     public Sprite fullHeart; // Sprite del corazón lleno
     public Sprite emptyHeart; // Sprite del corazón vacío
+    public RuntimeAnimatorController[] animatorControllers; // Arreglo de controladores para los personajes
 
     // Variables de puntuación
     private int score = 0; // Puntuación inicial
@@ -33,7 +34,19 @@ public class PacoMovement : MonoBehaviour
         Rigidbody2D = GetComponent<Rigidbody2D>();
         //Referencia a las animaciones de Paco
         Animator = GetComponent<Animator>();
+        // Obtén el índice del personaje seleccionado desde PlayerManager
+        int selectedIndex = PlayerManager.Instance.selectedCharacterIndex;
         
+        // Valida el índice y asigna el controlador correspondiente
+        if (selectedIndex >= 0 && selectedIndex < animatorControllers.Length)
+        {
+            Animator.runtimeAnimatorController = animatorControllers[selectedIndex];
+        }
+        else
+        {
+            Debug.LogError("Índice de personaje seleccionado fuera de rango. Revisa PlayerManager o asigna controladores en el Inspector.");
+        }
+
         // Inicializamos la salud actual con la salud máxima
         currentHealth = maxHealth;
         UpdateHearts(); // Actualizamos los corazones en la UI

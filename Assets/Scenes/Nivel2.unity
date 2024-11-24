@@ -676,7 +676,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999d6f8744c887e4985391ea22833508, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BulletPrefab: {fileID: 1284375869698441128, guid: f8b2da369015a0a4b92e84840a4686b7, type: 3}
+  BulletPrefab: {fileID: 1284375869698441128, guid: 3b2eae5937edd8242891656c906bcc1e, type: 3}
   Paco: {fileID: 1674985967}
   Health: 3
 --- !u!70 &116095528
@@ -1917,7 +1917,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999d6f8744c887e4985391ea22833508, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BulletPrefab: {fileID: 1284375869698441128, guid: f8b2da369015a0a4b92e84840a4686b7, type: 3}
+  BulletPrefab: {fileID: 1284375869698441128, guid: 3b2eae5937edd8242891656c906bcc1e, type: 3}
   Paco: {fileID: 1674985967}
   Health: 3
 --- !u!70 &210548540
@@ -3291,7 +3291,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999d6f8744c887e4985391ea22833508, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BulletPrefab: {fileID: 1284375869698441128, guid: f8b2da369015a0a4b92e84840a4686b7, type: 3}
+  BulletPrefab: {fileID: 1284375869698441128, guid: 3b2eae5937edd8242891656c906bcc1e, type: 3}
   Paco: {fileID: 1674985967}
   Health: 3
 --- !u!70 &384535118
@@ -5911,7 +5911,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -1.2444901}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -5922,7 +5922,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 4, y: 4}
+  m_Size: {x: 4, y: 1.5110196}
   m_EdgeRadius: 0
 --- !u!50 &662206961
 Rigidbody2D:
@@ -6468,6 +6468,7 @@ Rigidbody2D:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+
   m_GameObject: {fileID: 752598024}
   m_BodyType: 0
   m_Simulated: 1
@@ -6987,7 +6988,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999d6f8744c887e4985391ea22833508, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BulletPrefab: {fileID: 1284375869698441128, guid: f8b2da369015a0a4b92e84840a4686b7, type: 3}
+  BulletPrefab: {fileID: 1284375869698441128, guid: 3b2eae5937edd8242891656c906bcc1e, type: 3}
   Paco: {fileID: 1674985967}
   Health: 3
 --- !u!70 &856658177
@@ -8340,7 +8341,7 @@ Transform:
   - {fileID: 950037238}
   - {fileID: 1644141545}
   - {fileID: 384535115}
-  - {fileID: 1372549249}
+  - {fileID: 2046792824}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &946105759
@@ -8570,7 +8571,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999d6f8744c887e4985391ea22833508, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BulletPrefab: {fileID: 1284375869698441128, guid: f8b2da369015a0a4b92e84840a4686b7, type: 3}
+  BulletPrefab: {fileID: 1284375869698441128, guid: 3b2eae5937edd8242891656c906bcc1e, type: 3}
   Paco: {fileID: 1674985967}
   Health: 3
 --- !u!70 &950037241
@@ -9501,6 +9502,71 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1005838207
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 941693973}
+    m_Modifications:
+    - target: {fileID: 1424623822049244500, guid: bee193a5e491c55428b03e9e366d7077, type: 3}
+      propertyPath: Paco
+      value: 
+      objectReference: {fileID: 1674985967}
+    - target: {fileID: 1424623822049244500, guid: bee193a5e491c55428b03e9e366d7077, type: 3}
+      propertyPath: BulletPrefab
+      value: 
+      objectReference: {fileID: 1284375869698441128, guid: 3b2eae5937edd8242891656c906bcc1e, type: 3}
+    - target: {fileID: 3304442970355154695, guid: bee193a5e491c55428b03e9e366d7077, type: 3}
+      propertyPath: m_Name
+      value: Boss
+      objectReference: {fileID: 0}
+    - target: {fileID: 8160788827905344375, guid: bee193a5e491c55428b03e9e366d7077, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 36.582
+      objectReference: {fileID: 0}
+    - target: {fileID: 8160788827905344375, guid: bee193a5e491c55428b03e9e366d7077, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.287
+      objectReference: {fileID: 0}
+    - target: {fileID: 8160788827905344375, guid: bee193a5e491c55428b03e9e366d7077, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.09324031
+      objectReference: {fileID: 0}
+    - target: {fileID: 8160788827905344375, guid: bee193a5e491c55428b03e9e366d7077, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8160788827905344375, guid: bee193a5e491c55428b03e9e366d7077, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8160788827905344375, guid: bee193a5e491c55428b03e9e366d7077, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8160788827905344375, guid: bee193a5e491c55428b03e9e366d7077, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8160788827905344375, guid: bee193a5e491c55428b03e9e366d7077, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8160788827905344375, guid: bee193a5e491c55428b03e9e366d7077, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8160788827905344375, guid: bee193a5e491c55428b03e9e366d7077, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bee193a5e491c55428b03e9e366d7077, type: 3}
 --- !u!1 &1015153939
 GameObject:
   m_ObjectHideFlags: 0
@@ -9645,7 +9711,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999d6f8744c887e4985391ea22833508, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BulletPrefab: {fileID: 1284375869698441128, guid: f8b2da369015a0a4b92e84840a4686b7, type: 3}
+  BulletPrefab: {fileID: 1284375869698441128, guid: 3b2eae5937edd8242891656c906bcc1e, type: 3}
   Paco: {fileID: 1674985967}
   Health: 3
 --- !u!70 &1035707154
@@ -9831,7 +9897,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999d6f8744c887e4985391ea22833508, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BulletPrefab: {fileID: 1284375869698441128, guid: f8b2da369015a0a4b92e84840a4686b7, type: 3}
+  BulletPrefab: {fileID: 1284375869698441128, guid: 3b2eae5937edd8242891656c906bcc1e, type: 3}
   Paco: {fileID: 1674985967}
   Health: 3
 --- !u!70 &1040867704
@@ -12889,11 +12955,6 @@ Transform:
   - {fileID: 154806180}
   m_Father: {fileID: 621675579}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &1372549249 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8160788827905344375, guid: 5cbc87a985664434aaf34cb562879ebc, type: 3}
-  m_PrefabInstance: {fileID: 2471624028096581298}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1380538192
 GameObject:
   m_ObjectHideFlags: 0
@@ -13047,7 +13108,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999d6f8744c887e4985391ea22833508, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BulletPrefab: {fileID: 1284375869698441128, guid: f8b2da369015a0a4b92e84840a4686b7, type: 3}
+  BulletPrefab: {fileID: 1284375869698441128, guid: 3b2eae5937edd8242891656c906bcc1e, type: 3}
   Paco: {fileID: 1674985967}
   Health: 3
 --- !u!70 &1386919445
@@ -13743,7 +13804,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -1.1330433}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -13754,7 +13815,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 4, y: 4}
+  m_Size: {x: 4, y: 1.7339135}
   m_EdgeRadius: 0
 --- !u!212 &1452916753
 SpriteRenderer:
@@ -15687,7 +15748,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999d6f8744c887e4985391ea22833508, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BulletPrefab: {fileID: 1284375869698441128, guid: f8b2da369015a0a4b92e84840a4686b7, type: 3}
+  BulletPrefab: {fileID: 1284375869698441128, guid: 3b2eae5937edd8242891656c906bcc1e, type: 3}
   Paco: {fileID: 1674985967}
   Health: 3
 --- !u!70 &1644141548
@@ -15876,7 +15937,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -10
   m_Sprite: {fileID: 65862139, guid: 4c2ed97dd08506f408faf30055e4cab1, type: 3}
   m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FlipX: 0
@@ -16162,7 +16223,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e5c2a994c17ecf42861c5b496354b60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BulletPrefab: {fileID: 1284375869698441128, guid: f8b2da369015a0a4b92e84840a4686b7, type: 3}
+  BulletPrefab: {fileID: 1284375869698441128, guid: 3b2eae5937edd8242891656c906bcc1e, type: 3}
   JumpForce: 150
   Speed: 0
   Grounded: 0
@@ -16757,7 +16818,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999d6f8744c887e4985391ea22833508, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BulletPrefab: {fileID: 1284375869698441128, guid: f8b2da369015a0a4b92e84840a4686b7, type: 3}
+  BulletPrefab: {fileID: 1284375869698441128, guid: 3b2eae5937edd8242891656c906bcc1e, type: 3}
   Paco: {fileID: 1674985967}
   Health: 3
 --- !u!70 &1699371449
@@ -17559,7 +17620,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999d6f8744c887e4985391ea22833508, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BulletPrefab: {fileID: 1284375869698441128, guid: f8b2da369015a0a4b92e84840a4686b7, type: 3}
+  BulletPrefab: {fileID: 1284375869698441128, guid: 3b2eae5937edd8242891656c906bcc1e, type: 3}
   Paco: {fileID: 1674985967}
   Health: 3
 --- !u!70 &1805329900
@@ -18204,7 +18265,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999d6f8744c887e4985391ea22833508, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BulletPrefab: {fileID: 1284375869698441128, guid: f8b2da369015a0a4b92e84840a4686b7, type: 3}
+  BulletPrefab: {fileID: 1284375869698441128, guid: 3b2eae5937edd8242891656c906bcc1e, type: 3}
   Paco: {fileID: 1674985967}
   Health: 3
 --- !u!70 &1871488547
@@ -18958,7 +19019,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999d6f8744c887e4985391ea22833508, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BulletPrefab: {fileID: 1284375869698441128, guid: f8b2da369015a0a4b92e84840a4686b7, type: 3}
+  BulletPrefab: {fileID: 1284375869698441128, guid: 3b2eae5937edd8242891656c906bcc1e, type: 3}
   Paco: {fileID: 1674985967}
   Health: 3
 --- !u!70 &1954094191
@@ -20112,6 +20173,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+
 --- !u!1 &2057937792
 GameObject:
   m_ObjectHideFlags: 0
@@ -20315,7 +20377,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 999d6f8744c887e4985391ea22833508, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BulletPrefab: {fileID: 1284375869698441128, guid: f8b2da369015a0a4b92e84840a4686b7, type: 3}
+  BulletPrefab: {fileID: 1284375869698441128, guid: 3b2eae5937edd8242891656c906bcc1e, type: 3}
   Paco: {fileID: 1674985967}
   Health: 3
 --- !u!70 &2070470253
@@ -21163,6 +21225,7 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5cbc87a985664434aaf34cb562879ebc, type: 3}
+
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
