@@ -27,6 +27,7 @@ public class Boss3Script : MonoBehaviour
     private Rigidbody2D rb;
     private int nextTrashIndex = 0;
     private float jumpTimer = 5f;
+    private PacoMovement pacoMovement; // Referencia al script de movimiento de Paco
 
     private void Start()
     {
@@ -123,6 +124,11 @@ public void Hit()
 
     if (Health <= 0)
     {
+        if (pacoMovement != null)
+            {
+                pacoMovement.AddScore(500);
+                pacoMovement.Heal(1); // Paco recupera 1 de salud cuando mata al Boss
+            }
         Debug.Log("Boss destruido.");
         Destroy(gameObject);
     }

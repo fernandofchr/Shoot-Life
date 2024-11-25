@@ -89,6 +89,7 @@ private void Shoot()
           
             if (pacoMovement != null)
             {
+                pacoMovement.AddScore(100);
                 pacoMovement.Heal(1); // Paco recupera 1 de salud cuando mata al Boss
             }
             Destroy(gameObject); // Destruye el Boss
