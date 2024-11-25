@@ -56,39 +56,48 @@ public class PacoMovement : MonoBehaviour
     }
 
     void Update()
+{
+    // Movimiento y lógica de salto y disparo (igual que en tu código original)
+    Horizontal = Input.GetAxisRaw("Horizontal");
+
+    if (Horizontal < 0.0f)
     {
-        // Movimiento y lógica de salto y disparo (igual que en tu código original)
-        Horizontal = Input.GetAxisRaw("Horizontal");
-
-        if (Horizontal < 0.0f)
-        {
-            transform.localScale = new Vector3(-1.0f, 1.0f, 1.0f);
-        }
-        else if (Horizontal > 0.0f)
-        {
-            transform.localScale = new Vector3(1.0f, 1.0f, 1.0f);
-        }
-
-        Animator.SetBool("running", Horizontal != 0.0f);
-
-        Debug.DrawRay(transform.position, Vector3.down * 0.1f, Color.red);
-        if (Physics2D.Raycast(transform.position, Vector3.down, 0.1f))
-        {
-            Grounded = true;
-        }
-        else Grounded = false;
-
-        if (Input.GetKeyDown(KeyCode.W) && Grounded)
-        {
-            Jump();
-        }
-
-        if (Input.GetKey(KeyCode.Space) && Time.time > LastShoot + 0.25f)
-        {
-            Shoot();
-            LastShoot = Time.time;
-        }
+        transform.localScale = new Vector3(-1.0f, 1.0f, 1.0f);
     }
+    else if (Horizontal > 0.0f)
+    {
+        transform.localScale = new Vector3(1.0f, 1.0f, 1.0f);
+    }
+
+    Animator.SetBool("running", Horizontal != 0.0f);
+
+    Debug.DrawRay(transform.position, Vector3.down * 0.1f, Color.red);
+    if (Physics2D.Raycast(transform.position, Vector3.down, 0.1f))
+    {
+        Grounded = true;
+    }
+    else Grounded = false;
+
+    if (Input.GetKeyDown(KeyCode.W) && Grounded)
+    {
+        Jump();
+    }
+
+    if (Input.GetKey(KeyCode.Space) && Time.time > LastShoot + 0.25f)
+    {
+        Shoot();
+        LastShoot = Time.time;
+    }
+
+    // Verificar si el objeto está por debajo del valor en y = -2
+    if (transform.position.y <= -2f)
+    {
+        Destroy(gameObject); // Destruir el objeto
+        gameOverCanvas.SetActive(true); // Mostrar el canvas de Game Over
+        Debug.Log("Paco cayó fuera de los límites y murió.");
+    }
+}
+
 
     private void Shoot()
     {
