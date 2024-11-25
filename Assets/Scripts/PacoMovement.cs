@@ -23,6 +23,7 @@ public class PacoMovement : MonoBehaviour
     public Sprite emptyHeart; // Sprite del corazón vacío
     public RuntimeAnimatorController[] animatorControllers; // Arreglo de controladores para los personajes
 
+    public GameObject gameOverCanvas;
     // Variables de puntuación
     private int score = 0; // Puntuación inicial
     public TextMeshProUGUI scoreText;
@@ -46,6 +47,7 @@ public class PacoMovement : MonoBehaviour
         {
             Debug.LogError("Índice de personaje seleccionado fuera de rango. Revisa PlayerManager o asigna controladores en el Inspector.");
         }
+            gameOverCanvas.SetActive(false);
 
         // Inicializamos la salud actual con la salud máxima
         currentHealth = maxHealth;
@@ -123,6 +125,7 @@ public class PacoMovement : MonoBehaviour
         if (currentHealth <= 0)
         {
             Destroy(gameObject);
+            gameOverCanvas.SetActive(true);
             Debug.Log("Paco ha muerto");
         }
     }

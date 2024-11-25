@@ -190,7 +190,7 @@ MonoBehaviour:
   Grounded: 0
   LastShoot: 0
   maxHealth: 10
-  currentHealth: 0
+  currentHealth: 10
   hearts:
   - {fileID: 0}
   - {fileID: 0}
@@ -206,7 +206,7 @@ MonoBehaviour:
   emptyHeart: {fileID: 21300002, guid: fed24bd82cefc0c4a8ef64dab6231b53, type: 3}
   animatorControllers:
   - {fileID: 9100000, guid: 3a0d1c1ff9286d34cb8090e0a1683fc2, type: 2}
-  - {fileID: 9100000, guid: 72cf336e158747740a1bbe44b210175d, type: 2}
+  - {fileID: 9100000, guid: 235c0cdefacacd048a3d819e72e3a290, type: 2}
   scoreText: {fileID: 0}
 --- !u!114 &5725124941578325735
 MonoBehaviour:

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BossScript : MonoBehaviour
 {
@@ -86,6 +87,7 @@ public class BossScript : MonoBehaviour
                 pacoMovement.AddScore(100); // Paco recupera 1 de salud cuando mata al Boss
             }
             Destroy(gameObject); // Destruye el Boss
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);//Cambia de nivel 
         }
     }
 }
