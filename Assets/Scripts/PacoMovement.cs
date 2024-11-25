@@ -184,4 +184,9 @@ public class PacoMovement : MonoBehaviour
         }
         UpdateHearts();
     }
+    public int GetScore()
+    {
+        return score;
+    }
+
 }
