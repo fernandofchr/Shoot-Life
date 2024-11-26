@@ -37,6 +37,15 @@ public class Boss3Script : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         originalScale = transform.localScale;
 
+        if (Paco != null)
+    {
+        pacoMovement = Paco.GetComponent<PacoMovement>();
+    }
+    else
+    {
+        Debug.LogError("Paco no está asignado en el Boss3Script.");
+    }
+
         // Inicializa los parámetros del Animator
         animator.SetBool("isRunning", false);
         animator.SetBool("isAttacking", false);
