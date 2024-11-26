@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BossScript : MonoBehaviour
 {
@@ -79,13 +80,21 @@ public class BossScript : MonoBehaviour
         Health--; // Reduce la salud del Boss
         if (Health == 0)
         {
-          
+            string currentLevelName = SceneManager.GetActiveScene().name;
             if (pacoMovement != null)
             {
                 pacoMovement.Heal(1);
-                pacoMovement.AddScore(100); // Paco recupera 1 de salud cuando mata al Boss
+                pacoMovement.AddScore(250); // Paco recupera 1 de salud cuando mata al Boss
+                ScoreManager.SaveScore(currentLevelName, pacoMovement.GetScore());
             }
             Destroy(gameObject); // Destruye el Boss
+            if (currentLevelName == "Nivel2")
+            {
+                ScoreManager.SaveScore(currentLevelName, pacoMovement.GetScore());//Se guarda el puntaje
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);//Cambia de nivel 
+            }else{
+                Debug.Log("Estamos en el nivel 3");
+            }
         }
     }
 }

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Boss3Script : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class Boss3Script : MonoBehaviour
     public float detectionRange = 5f; // Rango para detectar a Paco
     public float runSpeed = 2.0f; // Velocidad al correr
     public float jumpForce = 5f; // Fuerza del salto
+    public GameObject gameFinishCanvas;
 
     private Vector3[] trashPositions = new Vector3[]
     {
@@ -27,12 +29,22 @@ public class Boss3Script : MonoBehaviour
     private Rigidbody2D rb;
     private int nextTrashIndex = 0;
     private float jumpTimer = 5f;
+    private PacoMovement pacoMovement; // Referencia al script de movimiento de Paco
 
     private void Start()
     {
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         originalScale = transform.localScale;
+
+        if (Paco != null)
+    {
+        pacoMovement = Paco.GetComponent<PacoMovement>();
+    }
+    else
+    {
+        Debug.LogError("Paco no está asignado en el Boss3Script.");
+    }
 
         // Inicializa los parámetros del Animator
         animator.SetBool("isRunning", false);
@@ -123,7 +135,15 @@ public void Hit()
 
     if (Health <= 0)
     {
+        string currentLevelName = SceneManager.GetActiveScene().name;
+        if (pacoMovement != null)
+            {
+                pacoMovement.AddScore(500);
+                pacoMovement.Heal(1); // Paco recupera 1 de salud cuando mata al Boss
+            }
         Debug.Log("Boss destruido.");
+        ScoreManager.SaveScore(currentLevelName, pacoMovement.GetScore());//Se guarda el puntaje
+        gameFinishCanvas.SetActive(true);
         Destroy(gameObject);
     }
     else if (Health == 10) // Comienza a correr hacia la segunda posición
