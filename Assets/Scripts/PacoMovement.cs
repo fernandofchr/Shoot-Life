@@ -3,13 +3,15 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.EventSystems; // Necesario para usar IPointerDownHandler y IPointerUpHandler
+
 
 public class PacoMovement : MonoBehaviour
 {
     public GameObject BulletPrefab;
     private Rigidbody2D Rigidbody2D;
     private Animator Animator;
-    private float Horizontal;
+    public float Horizontal;
     public float JumpForce;
     public float Speed;   
     public bool Grounded; 
@@ -21,8 +23,10 @@ public class PacoMovement : MonoBehaviour
     public Image[] hearts; // Arreglo de imágenes de corazones en el UI
     public Sprite fullHeart; // Sprite del corazón lleno
     public Sprite emptyHeart; // Sprite del corazón vacío
+    private float buttonHorizontal = 0f; // Control del movimiento horizontal desde botones
     public RuntimeAnimatorController[] animatorControllers; // Arreglo de controladores para los personajes
 
+    
     public GameObject gameOverCanvas;
     // Variables de puntuación
     private int score = 0; // Puntuación inicial
@@ -57,8 +61,9 @@ public class PacoMovement : MonoBehaviour
 
     void Update()
 {
-    // Movimiento y lógica de salto y disparo (igual que en tu código original)
-    Horizontal = Input.GetAxisRaw("Horizontal");
+    // Prioriza input del teclado, pero combina con botones
+    float inputHorizontal = Input.GetAxisRaw("Horizontal");
+    Horizontal = inputHorizontal != 0 ? inputHorizontal : buttonHorizontal;
 
     if (Horizontal < 0.0f)
     {
@@ -71,7 +76,6 @@ public class PacoMovement : MonoBehaviour
 
     Animator.SetBool("running", Horizontal != 0.0f);
 
-    Debug.DrawRay(transform.position, Vector3.down * 0.1f, Color.red);
     if (Physics2D.Raycast(transform.position, Vector3.down, 0.1f))
     {
         Grounded = true;
@@ -97,6 +101,25 @@ public class PacoMovement : MonoBehaviour
         Debug.Log("Paco cayó fuera de los límites y murió.");
     }
 }
+
+    // Método que activa el movimiento hacia la izquierda
+    public void OnMoveLeftDown()
+    {
+        buttonHorizontal = -1f; // Movimiento hacia la izquierda
+    }
+
+    // Método que activa el movimiento hacia la derecha
+    public void OnMoveRightDown()
+    {
+        buttonHorizontal = 1f; // Movimiento hacia la derecha
+    }
+
+    // Método que detiene el movimiento al soltar el botón
+    public void OnMoveUp()
+    {
+        buttonHorizontal = 0f; // Detener movimiento
+    }
+
 
 
     private void Shoot()
