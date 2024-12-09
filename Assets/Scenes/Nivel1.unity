@@ -501,7 +501,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 814, y: 331}
+  m_AnchoredPosition: {x: 814, y: 416}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &56580146
@@ -899,7 +899,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 483.772, y: 408.288}
+  m_AnchoredPosition: {x: 437.77, y: 499}
   m_SizeDelta: {x: -967.545, y: -816.576}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &259938842
@@ -1785,7 +1785,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -878.31415, y: 363.40704}
+  m_AnchoredPosition: {x: -878.31415, y: 454.6071}
   m_SizeDelta: {x: 92.787, y: 96.499}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &444711180
@@ -29026,7 +29026,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.82, y: -0.38, z: -3.79}
+  m_LocalPosition: {x: -4.82, y: -0.342, z: -3.79}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -35783,9 +35783,29 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4707781649051162556, guid: f1e8102ba3082224abe53550ece11689, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4707781649051162556, guid: f1e8102ba3082224abe53550ece11689, type: 3}
+      propertyPath: m_ScreenMatchMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4707781649051162556, guid: f1e8102ba3082224abe53550ece11689, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 4707781649051162556, guid: f1e8102ba3082224abe53550ece11689, type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
+      objectReference: {fileID: 0}
     - target: {fileID: 5580659442780443769, guid: f1e8102ba3082224abe53550ece11689, type: 3}
       propertyPath: m_Name
       value: UIDeath
+      objectReference: {fileID: 0}
+    - target: {fileID: 5580659442780443769, guid: f1e8102ba3082224abe53550ece11689, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8864398582454230727, guid: f1e8102ba3082224abe53550ece11689, type: 3}
       propertyPath: m_Pivot.x
